@@ -3,7 +3,7 @@
     "key": "correo",
     "label": "correo electronico",
     "value": "",
-    "type": "",
+    "type": "email",
     "required": true,
     "order": 0
   }
