@@ -1,0 +1,10 @@
+[
+  {
+    "key": "correo",
+    "label": "correo electronico",
+    "value": "",
+    "type": "",
+    "required": true,
+    "order": 0
+  }
+]
