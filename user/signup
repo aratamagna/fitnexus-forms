@@ -4,7 +4,7 @@
     "label": "correo electronico",
     "value": "",
     "type": "email",
-    "pattern": "^([a-zA-Z0-9_\\-\\.]+)@([a-zA-Z0-9_\\-\\.]+)\\.([a-zA-Z]{2,5})$",
+    "pattern": "^(?=[A-Z0-9][A-Z0-9@._%+-]{5,253}$)",
     "required": true,
     "order": 0
   }
