@@ -10,7 +10,7 @@
   {
     "key": "endpoint",
     "label": "",
-    "value": "http://190.98.234.88:5678:5678/webhook/1/webhook/asd",
+    "value": "http://190.98.234.88:5678/webhook/1/webhook/asd",
     "type": "hidden",
     "required": true,
     "order": 0
