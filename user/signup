@@ -3,8 +3,8 @@
     "key": "correo",
     "label": "correo electronico",
     "value": "",
-    "type": "",
-    "pattern": "^[A-Z0-9@._%+-]{6,254}$",
+    "type": "email",
+    "pattern": "^(?=[A-Z0-9][A-Z0-9@._%+-]{5,253}$)^(?=[A-Z0-9][A-Z0-9@._%+-]{5,253}$)",
     "required": true,
     "order": 0
   }
