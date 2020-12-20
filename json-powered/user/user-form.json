@@ -1,0 +1,52 @@
+[
+  {
+    "key": "name",
+    "type": "input",
+    "templateOptions": {
+      "label": "Nombre"
+    }
+  },
+  {
+    "key": "last_name",
+    "type": "input",
+    "templateOptions": {
+      "label": "Apellido"
+    }
+  },
+  {
+    "key": "Celular",
+    "type": "input",
+    "templateOptions": {
+      "label": "",
+      "pattern": "([0-9A-F]{2}[:-]){5}([0-9A-F]{2})"
+    }
+  },
+  {
+    "className": "section-label",
+    "template": "<div class='cont-tit'><h3>Cambiar contraseña</h3></div>",
+  },
+  {
+    "key": "password",
+    "type": "input",
+    "templateOptions": {
+      "type": "password",
+      "label": "Password",
+      "placeholder": "Must be at least 3 characters",
+      "required": true,
+      "minLength": 3,
+    },
+  },
+  {
+    "key": "passwordConfirm",
+    "type": "input",
+    "templateOptions": {
+      "type": "password",
+      "label": "Confirm Password",
+      "placeholder": "Please re-enter your password",
+      "required": true,
+    },
+    "validators": {
+      "validation": ["fieldMatch"],
+    },
+  },
+]
