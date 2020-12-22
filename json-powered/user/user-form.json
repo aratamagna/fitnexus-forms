@@ -23,7 +23,7 @@
   },
   {
     "className": "section-label",
-    "template": "<div class='cont-tit'><h3>Cambiar contraseña</h3></div>",
+    "template": "<hr /><div><strong>Cambiar contraseña</strong></div>",
   },
   {
     "key": "password",
